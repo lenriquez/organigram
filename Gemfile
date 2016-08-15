@@ -40,6 +40,9 @@ group :development, :test do
   gem 'byebug', platform: :mri
   # Testing API
   gem 'rspec-rails', '~> 3.5', '>= 3.5.1'
+  # Debug
+  gem 'pry'
+  gem 'awesome_print'
 end
 
 group :development do
