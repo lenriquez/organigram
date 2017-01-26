@@ -5,5 +5,5 @@ class DiagramControllerTest < ActionDispatch::IntegrationTest
     get diagram_index_url
     assert_response :success
   end
-
 end
+
