@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
   #protect_from_forgery with: :exception
   attr_reader  :current_user
 
-  private 
+  private
 
   def authenticate_request
     @current_user = AuthorizeApiRequest.call(request.headers).result

@@ -3,3 +3,4 @@ class DiagramController < ApplicationController
 	 render json: "{ \"message\": \"This is a test\" }"
   end
 end
+
