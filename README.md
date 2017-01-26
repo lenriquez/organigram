@@ -1,24 +1,39 @@
-# README
+# Organizatianl Diagram
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## General Purpose
+Companies reorganize their people constantly having a tool that helps find a person with a specify knowledge or skill
+is very usefu
 
-Things you may want to cover:
+## Personal Purpose
+- Practice Rails, Ruby and Angular
+- Check different methods of authentication
+- Learn D3
 
-* Ruby version
+## About this project
+- Use version 2.3.0 of Ruby
+- Rails 5
 
-* System dependencies
+## Configuration
+``` bash
+git clone git@github.com:lenriquez/organigram.git
+cd organigram
+bundle install
+```
 
-* Configuration
+### Database initialization
+``` bash
+rails db:migrate
+rake db:seed
+```
 
-* Database creation
+### Test
+```bash
+rspec
+```
 
-* Database initialization
+or
 
-* How to run the test suite
+```bash
+rspec path/to/spec/file.rb
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
