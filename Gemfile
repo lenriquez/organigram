@@ -34,6 +34,7 @@ gem 'bcrypt', '~> 3.1.7'
 # Adding ElasticSearch
 gem 'elasticsearch-model'
 gem 'elasticsearch-rails'
+gem 'chewy'
 
 # Use to decode and encode HMACSHA256
 gem 'jwt', '~> 1.5.4'
