@@ -14,6 +14,17 @@ is very usefu
 - Rails 5
 
 ## Configuration
+
+### ElasticSearch
+```bash
+brew install elasticsearch
+brew services start elasticsearch
+```
+###Test
+```bash
+curl 'http://localhost:9200/?pretty'
+```
+
 ``` bash
 git clone git@github.com:lenriquez/organigram.git
 cd organigram
